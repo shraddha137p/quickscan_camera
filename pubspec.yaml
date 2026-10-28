@@ -1,0 +1,78 @@
+name: quickscan_camera
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_gen: ^5.15.0
+  flutter_screenutil_plus: ^1.5.0
+  logger: ^2.8.0
+  get: ^4.7.3
+  camera: ^0.12.0+2
+  google_mlkit_barcode_scanning: ^0.15.0
+  permission_handler: ^12.0.3
+
+
+get_cli:
+  sub_folder: false
+
+
+flutter_gen:
+  output: lib/gen/
+  line_length: 80
+  assets:
+    outputs:
+      style: camel-case
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+
+
+
+  fonts:
+    - family: Noto Sans JP
+      fonts:
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Noto_Sans_JP/static/NotoSansJP-Black.ttf
+          weight: 900
+
